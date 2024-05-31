@@ -1,6 +1,6 @@
 # Contribuer
 
-Farcaster accueille les contributions de toutes tailles de la communauté. Le protocole doit remercier plus de 100 contributeurs qui nous ont aidés jusqu'à présent.
+ja + ja-translated Farcaster welcomes contributions of all sizes from the community. The protocol owes thanks to over 100 contributors who have helped us so far.
 
 Pour vous impliquer, essayez de consulter les problèmes ouverts dans l'un des dépôts ci-dessous ou rejoignez un appel des développeurs.
 
@@ -16,13 +16,11 @@ Pour vous impliquer, essayez de consulter les problèmes ouverts dans l'un des d
 
 ## Documentation
 
-Ce site sert de hub central pour la documentation sur le protocole. Si vous avez des commentaires, veuillez ouvrir un problème ou
-créer une pull request sur [farcasterxyz/docs](https://github.com/farcasterxyz/docs)
+ja + ja-translated This site serves as the central hub for documentation on the protocol. If you have feedback, please open an issue or create a pull request at [farcasterxyz/docs](https://github.com/farcasterxyz/docs)
 
 ## Appels de développeurs
 
-Nous organisons un appel des développeurs bi-hebdomadaire pour discuter des changements à venir du protocole. L'appel est ouvert à tous et est un
-excellent moyen de s'impliquer.
+ja + ja-translated We host a bi-weekly developer call to discuss upcoming changes to the protocol. The call is open to anyone and is a great way to get involved.
 
 - [Invitation au calendrier](https://calendar.google.com/calendar/u/0?cid=NjA5ZWM4Y2IwMmZiMWM2ZDYyMTkzNWM1YWNkZTRlNWExN2YxOWQ2NDU3NTA3MjQwMTk3YmJlZGFjYTQ3MjZlOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) -
   Invitation au calendrier pour rejoindre les appels à venir.
