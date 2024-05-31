@@ -10,7 +10,7 @@ Farcaster utilise des noms ENS comme identifiants lisibles par les humains pour 
 ## Noms ENS onchain
 
 Les utilisateurs peuvent utiliser des noms ENS onchain comme `@alice.eth` sur Farcaster.
-Les noms ENS onchain sont émis par ENS, se terminent par .eth et doivent être enregistrés sur la blockchain Ethereum L1. N'importe qui peut enregistrer un nom ENS en utilisant l'[ENS app](https://app.ens.domains/).
+Les noms ENS onchain sont émis par ENS, se terminent par .eth et doivent être enregistrés sur la blockchain Ethereum L1. N'importe qui peut enregistrer un nom ENS en utilisant l'[application ENS](https://app.ens.domains/).
 Les utilisateurs doivent payer des frais pour enregistrer un nom ENS onchain, mais une fois enregistré, il est contrôlé par l'utilisateur et ne peut pas être révoqué.
 
 ## Noms ENS offchain (Fnames)
