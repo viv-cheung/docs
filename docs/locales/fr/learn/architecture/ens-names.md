@@ -32,6 +32,4 @@ L'enregistrement d'un fname est gratuit mais soumis à la politique suivante :
 
 ### Registre
 
-Les fnames sont émis comme des noms offchain sous le sous-domaine `fcast.id`.
-Bob peut enregistrer le nom ENS offchain `bob.fcast.id` et l'utiliser sur n'importe quelle application Farcaster avec le raccourci `@bob`. Le nom peut être enregistré en faisant une demande signée au serveur de registre Fname. Voir la référence API FName pour plus de détails sur la façon de consulter et de créer des fnames.
-Pour en savoir plus sur le fonctionnement des fnames, voir [ENSIP-16](https://docs.ens.domains/ens-improvement-proposals/ensip-16-offchain-metadata) et [ERC-3668](https://eips.ethereum.org/EIPS/eip-3668).
+Les fnames sont émis comme des noms offchain sous le sous-domaine `fcast.id`. Bob peut enregistrer le nom ENS offchain `bob.fcast.id` et l'utiliser sur n'importe quelle application Farcaster avec le raccourci `@bob`. Le nom peut être enregistré en faisant une demande signée au serveur de registre Fname. Voir la référence API FName pour plus de détails sur la façon de consulter et de créer des fnames. Pour en savoir plus sur le fonctionnement des fnames, voir [ENSIP-16](https://docs.ens.domains/ens-improvement-proposals/ensip-16-offchain-metadata) et [ERC-3668](https://eips.ethereum.org/EIPS/eip-3668).

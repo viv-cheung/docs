@@ -2,8 +2,7 @@
 
 Farcaster utilise les noms ENS comme identifiants lisibles par les humains pour les comptes. Deux types de noms ENS sont pris en charge :
 
-- **Noms ENS offchain** : Gérés gratuitement par Farcaster. (ex : @alice)
-- **Noms ENS onchain** : Payants et gérés par un portefeuille. (ex : @alice.eth)
+- **Noms ENS offchain** : Gérés gratuitement par Farcaster. (ex : @alice) - **Noms ENS onchain** : Payants et gérés par un portefeuille. (ex : @alice.eth)
 
 Les noms ENS ne peuvent être utilisés sur Farcaster que s'ils contiennent uniquement des lettres minuscules, des chiffres et des tirets, et s'ils font 16 caractères ou moins.
 
@@ -13,9 +12,9 @@ Les noms ENS ne peuvent être utilisés sur Farcaster que s'ils contiennent uniq
 
 Les utilisateurs peuvent utiliser des noms ENS onchain comme `@alice.eth` sur Farcaster.
 
-Les noms ENS onchain sont émis par ENS, se terminent par .eth et doivent être enregistrés sur la blockchain Ethereum L1. N'importe qui peut enregistrer un nom ENS en utilisant l'[application ENS](https://app.ens.domains/).
+Les noms ENS onchain sont émis par ENS, se terminent par .eth et doivent être enregistrés sur la blockchain Ethereum L1. Tout le monde peut enregistrer un nom ENS en utilisant l'[application ENS](https://app.ens.domains/).
 
-Les utilisateurs doivent payer des frais pour enregistrer un nom ENS onchain, mais une fois enregistré, il est contrôlé par l'utilisateur et ne peut pas être révoqué.
+L'enregistrement des noms ENS onchain est payant, mais une fois enregistrés, ils sont gérés par l'utilisateur et ne peuvent pas être révoqués.
 
 ## Noms ENS offchain (Fnames)
 
@@ -23,18 +22,15 @@ Les utilisateurs peuvent utiliser des noms ENS offchain comme `@alice` sur Farca
 
 Les noms ENS offchain, également appelés noms Farcaster ou fnames, sont conformes à ENS mais sont enregistrés offchain. Les fnames sont gratuits mais doivent respecter une politique d'utilisation pour éviter le squatting et l'usurpation d'identité. Ils doivent également respecter les exigences suivantes :
 
-1. Un compte ne peut posséder qu'un seul fname à la fois.
-2. Un compte peut changer de fname tous les 28 jours.
+1. Un compte ne peut posséder qu'un seul fname à la fois. 2. Un compte peut changer de fname tous les 28 jours.
 
 ### Politique d'utilisation
 
 L'enregistrement des fnames est gratuit mais doit respecter les politiques suivantes :
 
-1. Les noms associés à des personnalités publiques ou à des organisations peuvent être récupérés (ex : @google).
-2. Les noms qui ne sont pas utilisés pendant plus de 60 jours peuvent être récupérés.
-3. Les noms enregistrés dans le but de les revendre peuvent être récupérés.
+1. Les noms associés à des personnalités publiques ou à des organisations peuvent être récupérés (ex : @google). 2. Les noms non utilisés pendant plus de 60 jours peuvent être récupérés. 3. Les noms enregistrés dans le but de les revendre peuvent être récupérés.
 
-Les décisions sont prises par l'équipe Farcaster et nécessitent souvent un jugement humain. Les utilisateurs qui souhaitent un nom entièrement sous leur contrôle devraient utiliser un nom ENS onchain.
+Les décisions sont prises par l'équipe Farcaster et nécessitent souvent un jugement humain. Les utilisateurs souhaitant un nom entièrement sous leur contrôle devraient utiliser des noms ENS onchain.
 
 ### Registre
 
