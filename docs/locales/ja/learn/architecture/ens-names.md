@@ -1,45 +1,45 @@
-# ENS名
+# Noms ENS
 
-FarcasterはENS名をアカウントの人間が読みやすい識別子として利用します。2種類のENS名がサポートされています：
+Farcaster utilise les noms ENS comme identifiants lisibles par les humains pour les comptes. Deux types de noms ENS sont pris en charge :
 
-- **オフチェーンENS名**: 無料でFarcasterによって管理されます。（例：@alice）
-- **オンチェーンENS名**: 費用がかかり、ウォレットによって管理されます。（例：@alice.eth）
+- **Noms ENS offchain** : Gérés gratuitement par Farcaster. (ex : @alice)
+- **Noms ENS onchain** : Payants et gérés par un portefeuille. (ex : @alice.eth)
 
-ENS名は、16文字以下で小文字のアルファベット、数字、ハイフンのみを含む場合にのみFarcasterで使用できます。
+Les noms ENS ne peuvent être utilisés sur Farcaster que s'ils contiennent uniquement des lettres minuscules, des chiffres et des tirets, et s'ils font 16 caractères ou moins.
 
-![ユーザー名](/assets/usernames.png)
+![Noms d'utilisateur](/assets/usernames.png)
 
-## オンチェーンENS名
+## Noms ENS onchain
 
-ユーザーは`@alice.eth`のようなオンチェーンENS名をFarcasterで使用できます。
+Les utilisateurs peuvent utiliser des noms ENS onchain comme `@alice.eth` sur Farcaster.
 
-オンチェーンENS名はENSによって発行され、.ethで終わり、Ethereum L1ブロックチェーンに登録される必要があります。誰でも[ENSアプリ](https://app.ens.domains/)を使用してENS名を登録できます。
+Les noms ENS onchain sont émis par ENS, se terminent par .eth et doivent être enregistrés sur la blockchain Ethereum L1. N'importe qui peut enregistrer un nom ENS en utilisant l'[application ENS](https://app.ens.domains/).
 
-オンチェーンENS名を登録するには料金が必要ですが、一度登録されるとユーザーによって管理され、取り消されることはありません。
+Les utilisateurs doivent payer des frais pour enregistrer un nom ENS onchain, mais une fois enregistré, il est contrôlé par l'utilisateur et ne peut pas être révoqué.
 
-## オフチェーンENS名（Fnames）
+## Noms ENS offchain (Fnames)
 
-ユーザーは`@alice`のようなオフチェーンENS名をFarcasterで使用できます。
+Les utilisateurs peuvent utiliser des noms ENS offchain comme `@alice` sur Farcaster.
 
-オフチェーンENS名、またはFarcaster名やfnamesとも呼ばれるものは、ENSに準拠していますが、オフチェーンで登録されます。Fnamesは無料ですが、スクワッティングやなりすましを防ぐための使用ポリシーに従う必要があります。また、以下の要件に従います：
+Les noms ENS offchain, également appelés noms Farcaster ou fnames, sont conformes à ENS mais sont enregistrés offchain. Les fnames sont gratuits mais doivent respecter une politique d'utilisation pour éviter le squatting et l'usurpation d'identité. Ils doivent également respecter les exigences suivantes :
 
-1. アカウントは一度に1つのfnameしか所有できません。
-2. アカウントは28日ごとにfnameを変更できます。
+1. Un compte ne peut posséder qu'un seul fname à la fois.
+2. Un compte peut changer de fname tous les 28 jours.
 
-### 使用ポリシー
+### Politique d'utilisation
 
-fnameの登録は無料ですが、以下のポリシーに従います：
+L'enregistrement des fnames est gratuit mais doit respecter les politiques suivantes :
 
-1. 公人や団体に関連する名前は再取得される場合があります（例：@google）。
-2. 60日以上使用されていない名前は再取得される場合があります。
-3. 転売を目的として登録された名前は再取得される場合があります。
+1. Les noms associés à des personnalités publiques ou à des organisations peuvent être récupérés (ex : @google).
+2. Les noms qui ne sont pas utilisés pendant plus de 60 jours peuvent être récupérés.
+3. Les noms enregistrés dans le but de les revendre peuvent être récupérés.
 
-決定はFarcasterチームによって行われ、多くの場合、人間の判断が必要です。完全に自分の管理下にある名前を希望するユーザーは、オンチェーンENS名を使用するべきです。
+Les décisions sont prises par l'équipe Farcaster et nécessitent souvent un jugement humain. Les utilisateurs qui souhaitent un nom entièrement sous leur contrôle devraient utiliser un nom ENS onchain.
 
-### レジストリ
+### Registre
 
-Fnamesは`fcast.id`サブドメインのオフチェーン名として発行されます。
+Les fnames sont émis comme des noms offchain sous le sous-domaine `fcast.id`.
 
-BobはオフチェーンENS名`bob.fcast.id`を登録し、任意のFarcasterアプリで`@bob`の略記を使用できます。名前はFnameレジストリサーバーに署名されたリクエストを送信することで登録できます。fnameをクエリおよび作成する方法の詳細については、FName APIリファレンスを参照してください。
+Bob peut enregistrer le nom ENS offchain `bob.fcast.id` et l'utiliser sur n'importe quelle application Farcaster avec le raccourci `@bob`. Le nom peut être enregistré en faisant une demande signée au serveur de registre Fname. Voir la référence API FName pour plus de détails sur la façon de consulter et de créer des fnames.
 
-fnameの仕組みについて詳しくは、[ENSIP-16](https://docs.ens.domains/ens-improvement-proposals/ensip-16-offchain-metadata)および[ERC-3668](https://eips.ethereum.org/EIPS/eip-3668)を参照してください。
+Pour en savoir plus sur le fonctionnement des fnames, voir [ENSIP-16](https://docs.ens.domains/ens-improvement-proposals/ensip-16-offchain-metadata) et [ERC-3668](https://eips.ethereum.org/EIPS/eip-3668).
